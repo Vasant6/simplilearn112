@@ -1,0 +1,154 @@
+Linux:
+Giving super user rights:
+1) sudo su
+
+Creating files in linux:
+
+2) cat >file1.txt  (press enter)
+   Hello world 
+   (to exit this file1.txt you should press ctrl d) 
+
+(it will create a file with name file1 with extension txt and 
+content hello world)
+
+3) ls    (list ...you should be able to see file1.txt) 
+
+4) cat file1.txt   (to see the content of the file1.txt ) 
+
+5) to clear screen write clear or press ctrl l 
+
+6) cat >>file1.txt 
+Hello akshat 
+(press ctrl d to exit )   (this will add hello akshat below Hello world in file1.txt)
+
+7) cat file1.txt      (o/p Hello world
+                           Hello akshat)
+
+8) Lets say i have two files a.txt and b.txt . Now a.txt has content -> I am learning devops
+and b.txt has content -> Linux is first topic . Now i want to concatenate a.txt and
+b.txt and create a new file with name all which will have content of both a.txt and b.txt
+
+cat > a.txt
+I am learning Devops 
+(press ctrl d to exit) 
+
+cat > b.txt
+Linux is first topic
+(press ctrl d to exit) 
+
+cat a.txt b.txt > all.txt   (here a.txt and b.txt would be concatenated to become all.txt )
+
+ls 
+
+cat all.txt  (you will see o/p : I am learning devops
+				 Linux is first topic )
+
+9) Touch command: -> Created the empty file 
+	          -> Create multiple files at a time (with a single command) 
+ 		  -> Change the timestamp (you can see time when the file created, modify time,change time) 
+            
+
+10) touch abc.txt   (it will create a file abc.txt without any content (empty file) )
+
+11) ls    (you will see abc.txt)
+
+12) cat abc.txt  (you will see no content because this file is empty) 
+
+13) touch file3 file4.txt file5 file6 file7 file8   (it will create multiple blank files)
+
+14) stat file3   (it will show the timestamp )
+
+15)  Lets say i have created a file with name akshat.txt ...i added content that akshat is teaching 
+devops certification . later you want to delete the content of the file ...(empty the file) 
+
+cat > akshat.txt
+akshat is teaching devops certification 
+(press ctrl d to exit)
+
+now i want to empty the file :
+
+cat akshat.txt   (you will see content: akshat is teaching devops certification )
+
+>akshat.txt       (this command will delete everything in akshat.txt)
+
+cat akshat.txt  (you will see akshat.txt content is deleted ) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
